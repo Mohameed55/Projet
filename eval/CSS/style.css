@@ -1,0 +1,23 @@
+
+#formulaire{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 200px;
+
+}
+.bloc, .bloc_Parcourir{
+  padding-bottom: 20px;
+}
+
+.bouton_envoyer{
+height: 40px;
+}
+.note_attribué{
+  width:  90px;
+}
+
+body , html{
+  width: 100%;
+  margin: 0;
+}

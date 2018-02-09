@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Formulaire de satisfaction</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div>
+    <form id="formulaire"  action="index.html" method="post"> <!-- here is your global form -->
+      <fieldset id="containe">
+        <div class="bloc">
+          <label for="name"> Prénom: </label>
+          <input id="last_name"type="text" name="" value="">
+          <label for="last_name"> Nom: </label>
+          <input type="text" name="" value="">
+        </div>
+        <div class="bloc_Parcourir">
+          Mettez en ligne une photo:
+          <input type="file" id="file" name="file" value="Parcourir">
+        </div>
+        <fieldset>
+          <legend> Question </legend>
+          <div class="bloc_Note">
+            Que pensez vous de ce test ? (Note entre 0 et 5)*
+            <input class="note_attribué" type="number" name="" value="0" min="0" max="5" required>
+          </div>
+          <p> Pensez vous l'avoir réussi ? </p>
+          <INPUT type= "radio" name="" value=""> Oui
+            <INPUT type= "radio" name="" value=""> Ne se prononce pas
+              <INPUT type= "radio" name="" value=""> Non
+              </fieldset>
+              <p class="champ_obligatoire" > * = Liste des champs obligatiore </p>
+              <button class="bouton_envoyer" type="button" name=""> Envoyer </button>
+            </fieldset>
+          </form>
+        </div>
+      </body>
+      </html>
